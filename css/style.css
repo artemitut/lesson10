@@ -246,15 +246,52 @@ li{
 }
 .footer{
     width: 1600px;
-    height: 308px;
+    height: 140px;
     background-color:#BF2F1B;
+    padding: 100px 0px;
 }
 .footer-img{
-    width:100px;
-    height: 100px;
+    width:30px;
+    height: 30px;
     background-image: url(/img/footer-img/twitter.png);
     background-repeat: no-repeat;
     background-position: center ;
-    margin: 0 auto;
     transition: 0.6;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+    margin: 0 auto;
+}
+.footer-img:hover{
+    background-color: white;
+    width:30px;
+    height: 30px;
+    background-image: url(/img/footer-img/twitter2.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    transition: 0.6;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+    margin: 0 auto;
+}
+.footer-image{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+}
+.footer-container{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 100px;
+    width: 240px;
+    height: 100px;
+}
+.footer-text{
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+    padding: 40px 0px;
 }
