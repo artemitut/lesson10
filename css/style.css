@@ -153,6 +153,7 @@ li{
     color: #555555;
 }
 .service-1-img{
+    transition: 0.4s;
     width:91px;
     height: 91px;
     background: url("../img/service-img/service-1-img.png") center center no-repeat;
@@ -161,6 +162,7 @@ li{
     transition: 0.6;
 }
 .service-1-img:hover{
+    transition: 0.4s;
     background: url("../img/service-img/service-1-img-hover.png") center center no-repeat;
 }
 .service-1-name{
@@ -183,6 +185,7 @@ li{
     color: #555555;
 }
 .service-2-img{
+    transition: 0.4s;
     width:91px;
     height: 91px;
     background: url("../img/service-img/service-2-img.png") center center no-repeat;
@@ -190,6 +193,7 @@ li{
     transition: 0.6;
 }
 .service-2-img:hover{
+    transition: 0.4s;
     background: url("../img/service-img/service-2-img-hover.png") center center no-repeat;
    
 }
@@ -213,13 +217,15 @@ li{
     color: #555555;
 }
 .service-3-img{
+    transition: 0.4s;
+    transition: 0.4s;
     width:91px;
     height: 91px;
     background: url("../img/service-img/service-3-img.png") center center no-repeat;
     margin: 0 auto;
-    transition: 0.6;
 }
 .service-3-img:hover{
+    transition: 0.4s;
     background: url("../img/service-img/service-3-img-hover.png") center center no-repeat;
    
 }
@@ -248,9 +254,9 @@ li{
     padding: 100px 0px;
 }
 .footer-img{
+    transition: 0.4s;
     width:30px;
     height: 30px;
-    transition: 0.6;
     border-radius: 50%;
     border: 2px solid white;
     display: inline-block;
@@ -258,14 +264,14 @@ li{
     background:url("../img/footer-img/twitter.png") center center no-repeat;
 }
 .footer-img:hover{
+    background-color: white;
     background: url("../img/footer-img/twitter2.png") center center no-repeat;
     width:30px;
     height: 30px;
-    transition: 0.6;
-    border-radius: 50%;
     border: 2px solid white;
     display: inline-block;
     margin: 0 auto;
+    transition: 0.4s;
 }
 .footer-image{
     width: 150px;
