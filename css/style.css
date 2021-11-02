@@ -155,14 +155,13 @@ li{
 .service-1-img{
     width:91px;
     height: 91px;
-    background-image: url(/img/service-img/service-1-img.png);
-    background-repeat: no-repeat;
-    background-position: center ;
+    background: url("../img/service-img/service-1-img.png") center center no-repeat;
+   
     margin: 0 auto;
     transition: 0.6;
 }
 .service-1-img:hover{
-    background-image: url(/img/service-img/service-1-img-hover.png);
+    background: url("../img/service-img/service-1-img-hover.png") center center no-repeat;
 }
 .service-1-name{
     font-size: 14;
@@ -186,14 +185,13 @@ li{
 .service-2-img{
     width:91px;
     height: 91px;
-    background-image: url(/img/service-img/service-2-img.png);
-    background-repeat: no-repeat;
-    background-position: center ;
+    background: url("../img/service-img/service-2-img.png") center center no-repeat;
     margin: 0 auto;
     transition: 0.6;
 }
 .service-2-img:hover{
-    background-image: url(/img/service-img/service-2-img-hover.png);
+    background: url("../img/service-img/service-2-img-hover.png") center center no-repeat;
+   
 }
 .service-2-name{
     font-size: 14;
@@ -217,14 +215,13 @@ li{
 .service-3-img{
     width:91px;
     height: 91px;
-    background-image: url(/img/service-img/service-3-img.png);
-    background-repeat: no-repeat;
-    background-position: center ;
+    background: url("../img/service-img/service-3-img.png") center center no-repeat;
     margin: 0 auto;
     transition: 0.6;
 }
 .service-3-img:hover{
-    background-image: url(/img/service-img/service-3-img-hover.png);
+    background: url("../img/service-img/service-3-img-hover.png") center center no-repeat;
+   
 }
 .service-3-name{
     font-size: 14;
@@ -253,22 +250,17 @@ li{
 .footer-img{
     width:30px;
     height: 30px;
-    background-image: url(/img/footer-img/twitter.png);
-    background-repeat: no-repeat;
-    background-position: center ;
     transition: 0.6;
     border-radius: 50%;
     border: 2px solid white;
     display: inline-block;
     margin: 0 auto;
+    background:url("../img/footer-img/twitter.png") center center no-repeat;
 }
 .footer-img:hover{
-    background-color: white;
+    background: url("../img/footer-img/twitter2.png") center center no-repeat;
     width:30px;
     height: 30px;
-    background-image: url(/img/footer-img/twitter2.png);
-    background-repeat: no-repeat;
-    background-position: center ;
     transition: 0.6;
     border-radius: 50%;
     border: 2px solid white;
@@ -282,7 +274,7 @@ li{
 }
 .footer-container{
     text-align: center;
-    margin: 0 auto;
+    margin: 0px 640px auto 550px;
     padding: 20px 100px;
     width: 240px;
     height: 100px;
